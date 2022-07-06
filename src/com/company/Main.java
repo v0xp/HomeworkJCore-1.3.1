@@ -15,13 +15,6 @@ public class Main {
         String dirMain = "D://Games/src/main";
         String dirTemp = "D://Games/temp";
 
-//        File dirSrc = new File(baseDir,"src");
-//        dirSrc.mkdir();
-//        File dirMain = new File(dirSrc,"main");
-//        dirMain.mkdir();
-//        File item = new File(dirMain, "Utils.java");
-//        item.createNewFile();
-
         List<String> listDirGames = Arrays.asList("src", "res", "savegames", "temp");
         List<String> listDirSrc = Arrays.asList("main", "test");
         List<String> listDirRes = Arrays.asList("drawables", "vectors", "icons");
